@@ -1,11 +1,11 @@
 %define		fversion	%(echo %{version} |tr r -)
 %define		modulename	abind
 Summary:	Combine multi-dimensional arrays
-Summary(pl):	£±czy wielowymiarowe tablice
+Summary(pl):	£±czenie wielowymiarowych tablic
 Name:		R-cran-%{modulename}
 Version:	1.1r0
 Release:	1
-License:	LGPL Version 2 or later.
+License:	LGPL v2+
 Group:		Applications/Math
 Source0:	ftp://stat.ethz.ch/R-CRAN/src/contrib/%{modulename}_%{fversion}.tar.gz
 # Source0-md5:	e70921be502d58d9edb1a1b64af44d48
@@ -21,9 +21,9 @@ and rbind. Takes a sequence of vectors, matrices, or arrays and
 produces a single array of the same or higher dimension.
 
 %description -l pl
-£±czy wielowymiarowe tablice. Jest uogólnieniem cbind i rbind. Pobiera listê
-wektorów, matryc lub tablic oraz tworzy pojedyñcz± tablice tego samego lub
-wy¿szego wymiaru.
+Modu³ ten ³±czy wielowymiarowe tablice. Jest uogólnieniem cbind i
+rbind. Pobiera listê wektorów, macierzy lub tablic i tworzy pojedyncz±
+tablice tego samego lub wy¿szego wymiaru.
 
 %prep
 %setup -q -c
