@@ -1,7 +1,7 @@
 %define		fversion	%(echo %{version} |tr r -)
 %define		modulename	abind
 Summary:	Combine multi-dimensional arrays
-Summary(pl.UTF-8):   Łączenie wielowymiarowych tablic
+Summary(pl.UTF-8):	Łączenie wielowymiarowych tablic
 Name:		R-cran-%{modulename}
 Version:	1.1r0
 Release:	2
