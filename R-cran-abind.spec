@@ -1,7 +1,7 @@
 %define		fversion	%(echo %{version} |tr r -)
 %define		modulename	abind
 Summary:	Combine multi-dimensional arrays
-Summary(pl):	£±czenie wielowymiarowych tablic
+Summary(pl.UTF-8):   ÅÄ…czenie wielowymiarowych tablic
 Name:		R-cran-%{modulename}
 Version:	1.1r0
 Release:	2
@@ -20,10 +20,10 @@ Combine multi-dimensional arrays. This is a generalization of cbind
 and rbind. Takes a sequence of vectors, matrices, or arrays and
 produces a single array of the same or higher dimension.
 
-%description -l pl
-Modu³ ten ³±czy wielowymiarowe tablice. Jest uogólnieniem cbind i
-rbind. Pobiera listê wektorów, macierzy lub tablic i tworzy pojedyncz±
-tablice tego samego lub wy¿szego wymiaru.
+%description -l pl.UTF-8
+ModuÅ‚ ten Å‚Ä…czy wielowymiarowe tablice. Jest uogÃ³lnieniem cbind i
+rbind. Pobiera listÄ™ wektorÃ³w, macierzy lub tablic i tworzy pojedynczÄ…
+tablice tego samego lub wyÅ¼szego wymiaru.
 
 %prep
 %setup -q -c
