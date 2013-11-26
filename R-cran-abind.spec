@@ -4,7 +4,7 @@ Summary:	Combine multi-dimensional arrays
 Summary(pl.UTF-8):	Łączenie wielowymiarowych tablic
 Name:		R-cran-%{modulename}
 Version:	1.4r0
-Release:	1
+Release:	2
 License:	LGPL v2+
 Group:		Applications/Math
 Source0:	ftp://stat.ethz.ch/R-CRAN/src/contrib/%{modulename}_%{fversion}.tar.gz
@@ -33,6 +33,7 @@ R CMD build %{modulename}
 
 %install
 rm -rf $RPM_BUILD_ROOT
+install -d $RPM_BUILD_ROOT%{_libdir}/R/library/
 R CMD INSTALL %{modulename} --library=$RPM_BUILD_ROOT%{_libdir}/R/library/
 
 %clean
